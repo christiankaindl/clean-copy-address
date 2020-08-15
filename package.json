@@ -1,0 +1,34 @@
+{
+  "name": "copy-clean-address",
+  "version": "1.0.0",
+  "description": "Copy a clean version of the current browser address bar",
+  "main": "index.js",
+  "dependencies": {
+    "web-ext": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-ext run",
+    "lint": "web-ext lint",
+    "build": "web-ext build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/christiankaindl/clean-copy-address.git"
+  },
+  "keywords": [
+    "webextension"
+  ],
+  "author": "Christian Kaindl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christiankaindl/clean-copy-address/issues"
+  },
+  "homepage": "https://github.com/christiankaindl/clean-copy-address#readme",
+  "standard": {
+    "globals": [
+      "browser"
+    ]
+  }
+}
